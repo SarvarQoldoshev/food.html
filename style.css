@@ -1,0 +1,43 @@
+.box{
+    
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px;
+    
+}
+.container{
+    display: flex;
+    height: 20rem;
+    background-color: chartreuse;
+}
+.order3{
+    order: -5;
+}
+.order2{
+    order: 1;
+}
+.grow1{
+    flex-grow: 3;
+}
+.grow2{
+    flex-grow: 2;
+}
+.grow3{
+    flex-grow: 4;
+}
+.grow4{
+    flex-grow: 3;
+}
+.grow5{
+    flex-grow: 4;
+}
+.align1{
+    align-self: center;
+}
+.align4{
+    align-self: end;
+}
+.align5{
+    align-self: center;
+}
